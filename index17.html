@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors</title>
+    <style>
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            color: #333;
+        }
+        .container{
+            background-color:aqua;
+            color: white;
+        }
+        #unique{
+            background-color: black;
+            color: white;
+        }
+        div  p{
+            color: red;
+        }
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        a:visited{
+            color: purple;
+        }
+        a:link{
+            color: rgb(89, 89, 100);
+        }
+        a:hover{
+            color:rgb(14, 13, 12)
+        }
+        a:active{
+            background-color: rgb(208, 12, 12);
+        }
+        </style>
+</head>
+<body>
+    <h1>This is a heading</h1>
+
+    <div class="container">
+        <article>
+            <p>This is a paragraph inside a container.</p>
+            <p>This is another paragraph inside the same container.</p>
+        </article>
+    </div>  
+    <div id="unique">
+        <p>This is a paragraph inside a unique div.</p>
+<p>This is another paragraph inside the unique div.</p>
+    </div>
+    <div>
+        <div>
+            <a href="https://www.google.com/">Go TO Google.</a>
+            <a href="https://www.facebook.com/">Go TO Facebook.</a>
+        </div>
+
+</body>
+</html>
