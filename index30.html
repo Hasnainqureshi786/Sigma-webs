@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> variables</title>
+    <style>
+        :root{
+            --primary-color: #333;
+            --secondary-color: #6c6161;
+            --text-color: #eddfdf;
+        }
+        .nav{
+            background-color: var(--primary-color);
+            color: #fff;
+        }
+        .container{
+            background-color: var(--secondary-color);
+            color: var(--text-color);
+        }
+        ul{
+            list-style: none;
+ display: flex;       
+        }
+        ul li{
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+    <ul>
+        <li> Home</li>
+        <li>About</li>
+        <li>Tab</li>
+    </ul>
+</div>
+<div class="container">
+    <h1>hello world</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate.</p>
+</body>
+</html>
