@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Making</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .card{
+            width: 300px;
+            border: 2px solid black;
+            margin: 20px auto;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        .pic{
+            width: 100%;
+            height: 200px;
+            border-radius: 10px;
+                overflow: hidden;
+        }
+
+        .pic img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .content{
+            padding-top: 15px;
+        }
+
+        .title,
+        .location{
+            display: inline-block;
+            padding: 5px 10px;
+            border: 1px solid gray;
+            border-radius: 20px;
+            margin-right: 5px;
+            color: gray;
+        }
+
+        h1{
+            margin: 15px 0 10px;
+        }
+
+        p{
+            color: #555;
+            line-height: 1.5;
+        }
+       .button{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.button a{
+    display: inline-block;
+    background-color: #2e7acac7;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.button a:hover{
+    background-color: #1f5fa5;
+}
+    </style>
+</head>
+<body>
+
+    How to make a card in html and css
+    <div class="card">
+
+        <div class="pic">
+            <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=500&q=60" alt="Nature Image">
+        </div>
+
+        <div class="content">
+            <span class="title">Nature</span>
+            <span class="location">Lake Tahoe</span>
+
+            <h1>Card Title</h1>
+
+            <p>
+                This is a card description. It provides more details about
+                the content of the card.
+            </p>
+        </div>
+        <div class="button">
+            <a href="#">Read More</a>
+        </div>
+
+    </div>
+
+</body>
+</html>
