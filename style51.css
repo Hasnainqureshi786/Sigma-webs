@@ -1,0 +1,32 @@
+.box{
+    background-color: blue;
+    height: 450px;
+    position: relative;
+}
+#box1{
+    height: 60px;
+    width: 60px;
+    background-color: brown;
+    border-radius: 100px;
+    position: absolute;
+    bottom: 0;
+    left:0;
+    animation: hasna 3s linear infinite ,  hasnay 1s  ease-in-out infinite alternate;
+}
+@keyframes hasna {
+    from{
+left:0;
+    }
+    to{
+left: 100%;
+    }}
+  @keyframes hasnay {
+    
+    
+    from{
+        bottom: 0%;
+    }
+    to{
+        bottom: 100%;
+    }
+  }

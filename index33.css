@@ -1,0 +1,57 @@
+/* CSS Variable */
+:root {
+    --navbar-color: #3498db; /* Change this color */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: var(--navbar-color);
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+#d2{
+    background-color: aqua;
+    border: 3px solid black;
+    margin: 2px;
+
+}
+#d3{
+    background-color: #3498db;
+border: 3px solid black;
+margin:2px;
+}
+#form{
+    
+    justify-content: center;
+    align-items: center; 
+     
+}
