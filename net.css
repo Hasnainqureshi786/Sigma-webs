@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.nav{
+    padding:0px;
+    height: 30px;
+  max-width: 75%;
+    color: #e10f0f;
+    ;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+button{
+    background-color: #e10f0f;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.mainbbox{
+    background-image: url("images/the_netflix_login_background__canada__2024___by_logofeveryt_dh0w8qv-fullview.jpg");
+    background-size: cover;
+background-color: rgba(0, 0, 0, 0.6);
+position:relative;
+    height: 85vh; 
+     
+}
+#box1{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 0px;
+    marrgin: 0px;   
+    }
+    .box2{
+       height:100%;
+       display: flex;
+       flex-direction: column;
+                    justify-content: center;
+            margin: auto;
+           
+            gap:20px;
+        color: white;
+       align-items: center;
+    
+        position: relative;
+        }   
+        .inputbox input{
+            padding: 7px 101px 8px 14px;
+            font-size: 12px;
+            border-radius: 4px;
+            background-color: rgba(0, 0, 0, 0.6);
+            font-weight: 900;
+        }
+        .inputbox button{
+           padding:10px
+           
+            
+        }
+        body{
+            background-color: black;
+        }
+        .firsty{
+            justify-content: center;
+            align-items: center;
+            max-width: 70vw;
+            display: flex;
+            margin: 100px;
+            color: white;
+            gap:50px;
+            
+        }
+        .secimg{
+            position: relative; z-index: 10;
+        }
+        .secimg img{
+    
+            max-width: 30vw;
+   
+          
+        }
+        .secimg video{
+                        position:absolute;
+            max-width: 35vw;
+        
+          border: 1px solid gray;
+            
+        }
+        .sepration{
+            height: 6px;
+            background-color: gray;
+        }
+        section.firsty div{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        section.firsty > div:nth-child(1){
+            font-weight: bolder;
+font-size:48px;
+
+        }
+         section.firsty > div :nth-child(2){
+            font-weight: bolder;
+font-size:24px;        }
+ 
+.third{
+    padding-bottom: 200px;
+
+}
+.fourth{
+    padding-bottom: 200px;
+}
+.faq h2{
+      justify-content: center;
+    
+    text-align: center;
+}
+.faq{
+    background-color: black;
+    color: white;
+  padding: 34px;
+}
+.faqbox{
+    display:flex;
+ padding: 24px;
+ background-color: rgb(55, 54, 54);
+ max-width: 40vw;
+ margin: 32px auto;
+ cursor: pointer;
+}
+.faqbox span{
+    font-size: large;
+   cursor: pointer;
+}
